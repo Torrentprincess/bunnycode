@@ -1,5 +1,23 @@
+/* 
+colors
+
+MAIN - brown: 763d32
+ACCENT - pink: f6aeb6
+BODY - beige: f2dbcb
+
+nav bar black: 333131
+nav bar gray: 979797
+bunny grass: 38883c
+
+*/
+
+
 * {
     margin:0;
     padding:0;
     box-sizing:border-box;
+}
+
+body {
+    background-color:#f2dbcb;
 }
