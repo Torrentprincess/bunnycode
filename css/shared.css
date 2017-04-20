@@ -82,7 +82,7 @@ body {
 }
 
 .bhover .dropdown {
-    position:absolute; /* need to figure thus out might need to reposittion .bhover */
+    position:absolute;
     list-style: none;
 }
 
