@@ -23,6 +23,26 @@ body {
     background-color:#f2dbcb;
 }
 
+h1 {
+    font-family: 'Passion One', cursive;
+    text-align: center;
+    padding-bottom: .7em;
+    padding-top:.7em;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;  
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: center;
+}
+
+.Intro-container {
+    margin: 0 auto;
+    width: 85%;
+    background-color: white;
+    float: center;
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
