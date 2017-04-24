@@ -23,6 +23,52 @@ body {
     background-color:#f2dbcb;
 }
 
+h1 {
+    font-family: 'Passion One', cursive;
+    text-align: center;
+    padding-bottom: .7em;
+    padding-top:.7em;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: .7em;
+    padding-top:.7em;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;  
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: center;
+}
+
+.Intro-container {
+    margin: 0 auto;
+    width: 85%;
+    background-color: white;
+    float: center;
+}
+
+footer {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * *
 
@@ -96,6 +142,10 @@ body {
                 }
 /* Hover */
 #nav #nav-text-container .bhover:hover{
+<<<<<<< HEAD
+    background-color:antiquewhite;
+}
+=======
     background-color:gray;
 }
 .bhover:hover .dropdown {
@@ -104,3 +154,4 @@ body {
 .dropdown li:hover {
     background-color:black;
 }
+>>>>>>> master
