@@ -54,6 +54,10 @@ footer {
     margin-right: auto;
 }
 
+mark{
+    color: red;
+}
+
 .button {
     background-color: #763d32;
     border: none;
