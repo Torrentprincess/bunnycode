@@ -1,14 +1,11 @@
 /* 
 colors
-
 MAIN - brown: 763d32
 ACCENT - pink: f6aeb6
 BODY - beige: f2dbcb
-
 nav bar black: 333131
 nav bar gray: 979797
 bunny grass: 38883c
-
 */
 
 
@@ -23,6 +20,7 @@ body {
     background-color:#f2dbcb;
 }
 
+<<<<<<< HEAD
 h1 {
     font-family: 'Passion One', cursive;
     text-align: center;
@@ -58,7 +56,7 @@ footer {
 }
 
 .button {
-    background-color: #4CAF50;
+    background-color: #763d32;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -69,11 +67,46 @@ footer {
     margin: 4px 2px;
     cursor: pointer;
 }
+=======
+>>>>>>> origin/master
 
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: center;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
 /* * * * * * * * * * * * * * * * * * * * * * * * *
-
     NAVIGATION
-
  * * * * * * * * * * * * * * * * * * * * * * * * */
 #nav {
     position:relative;
@@ -142,10 +175,6 @@ footer {
                 }
 /* Hover */
 #nav #nav-text-container .bhover:hover{
-<<<<<<< HEAD
-    background-color:antiquewhite;
-}
-=======
     background-color:gray;
 }
 .bhover:hover .dropdown {
@@ -154,4 +183,3 @@ footer {
 .dropdown li:hover {
     background-color:black;
 }
->>>>>>> master
