@@ -119,6 +119,10 @@ mark{
     text-shadow: 0 0 2px black;
     font-family:comic sans ms;
 }
+#nav a {
+    color:inherit;
+    text-decoration: none;
+}
 /* Nav Logo */
     #nav #logo {
         position:absolute;
@@ -138,9 +142,6 @@ mark{
         top:50%;left:50%;transform: translate(-50%,-50%);/*Center*/
 
     }
-            #logo span a {
-                color:inherit;
-            }
 /* Text & Dropdown */
     #nav #nav-text-container {
         height:inherit;
@@ -157,10 +158,6 @@ mark{
                 padding: 23px; /* try and find a way to make this automatic */
                 width:200px;
                 height:70px;
-            }
-                #nav-text-container a {
-                color:inherit;
-                text-decoration: none;
             }
 /* Dropdown */
                 .dropdown {
