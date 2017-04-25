@@ -138,6 +138,9 @@ mark{
         top:50%;left:50%;transform: translate(-50%,-50%);/*Center*/
 
     }
+            #logo span a {
+                color:inherit;
+            }
 /* Text & Dropdown */
     #nav #nav-text-container {
         height:inherit;
