@@ -54,6 +54,10 @@ footer {
     margin-right: auto;
 }
 
+mark{
+    color: red;
+}
+
 .button {
     background-color: #763d32;
     border: none;
@@ -115,6 +119,10 @@ footer {
     text-shadow: 0 0 2px black;
     font-family:comic sans ms;
 }
+#nav a {
+    color:inherit;
+    text-decoration: none;
+}
 /* Nav Logo */
     #nav #logo {
         position:absolute;
@@ -150,10 +158,6 @@ footer {
                 padding: 23px; /* try and find a way to make this automatic */
                 width:200px;
                 height:70px;
-            }
-                #nav-text-container a {
-                color:inherit;
-                text-decoration: none;
             }
 /* Dropdown */
                 .dropdown {
