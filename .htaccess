@@ -1,2 +1,2 @@
 #Alternate default index page
-DirectoryIndex content/other/testingtemplate.php
+DirectoryIndex /content/other/testingtemplate.php
