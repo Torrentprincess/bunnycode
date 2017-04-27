@@ -20,31 +20,44 @@ body {
     background-color:#f2dbcb;
 }
 
-h1 {
-    font-family: 'Passion One', cursive;
-    text-align: center;
-    padding-bottom: .7em;
-    padding-top:.7em;
+h1,h2,h3 {
+    margin-bottom: .7em;
+    margin-top:.7em;
 }
 
-h2 {
-    text-align: center;
-    padding-bottom: .7em;
-    padding-top:.7em;
+h1 {
+    margin-top:0;
+    font-family: 'Passion One', cursive;
+    background-image: url(/image/main_ribbon_loop.png);
+    text-align:center;
+    color:white;
+    text-shadow: 0 0 5px black;
+    line-height:75px;
+    height:75px;
+    border: 1px solid #dba8ae;
+    border-width: 0 1px;
+}
+
+h2, h3 {
+    font-family:monospace; /* Not Final */
 }
 
 p {
     font-family: 'Roboto', sans-serif;  
-    padding-left: 3em;
+    padding-left: 2em;
     padding-right: 3em;
-    text-align: center;
 }
 
-.Intro-container {
+#content {
     margin: 0 auto;
     width: 85%;
     background-color: white;
     float: center;
+    padding:20px;
+    border: 0 solid #f6aeb6;
+    border-width: 0 5px;
+    outline: 5px solid #763d32;
+    padding-bottom:100px;
 }
 
 footer {
@@ -52,6 +65,12 @@ footer {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    width:100%;
+    height:100px;
+    background-image:linear-gradient(to bottom, #562c23, #7a543f);
+    background-color: #763d32;
+    position:relative;
+    z-index:100; /* to cover outline */
 }
 
 mark{
@@ -69,6 +88,8 @@ mark{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    float:right;
+    margin-top:25px;
 }
 
 .read-more-state {
@@ -117,7 +138,8 @@ mark{
     background-image:linear-gradient(to bottom, #562c23, #7a543f);
     color:white;
     text-shadow: 0 0 2px black;
-    font-family:comic sans ms;
+    font-family:alexismarie;
+    z-index:1000; /* Goes above everything */
 }
 #nav a {
     color:inherit;
@@ -125,6 +147,7 @@ mark{
 }
 /* Nav Logo */
     #nav #logo {
+        font-family:unocide;
         position:absolute;
         display:block;
         width:300px;
@@ -140,6 +163,8 @@ mark{
         #logo span {
         position:absolute;
         top:50%;left:50%;transform: translate(-50%,-50%);/*Center*/
+        text-shadow: 0 0 5px black;
+        white-space: nowrap;
 
     }
 /* Text & Dropdown */
@@ -158,7 +183,12 @@ mark{
                 padding: 23px; /* try and find a way to make this automatic */
                 width:200px;
                 height:70px;
+                font-size: 18px;
             }
+                .bhover > a {
+                    font-weight:900;
+                    font-size:23px;
+                }
 /* Dropdown */
                 .dropdown {
                     position:absolute;
@@ -166,21 +196,25 @@ mark{
                     top:100%;
                     transform: translateX(-50%);
                     display:none;
+                    border-bottom: 5px solid #ffaaaa;
+                    border-radius: 0 0 5px 5px;
                 }
                     .dropdown li {
                     width:200px;
                     padding:23px;
-                    background-color:gray;
+                    background-color:#603f39;
                     white-space: pre-wrap;
-                    
+                    border-bottom: 1px solid #4c251d;
+                    transition: background-color 0.15s;
                 }
 /* Hover */
 #nav #nav-text-container .bhover:hover{
-    background-color:gray;
+/*    background-image:linear-gradient(to bottom, #7c4134 2px, #4c251d 25px);*/
+    background-color:#4c251d;
 }
 .bhover:hover .dropdown {
     display:block;
 }
 .dropdown li:hover {
-    background-color:black;
+    background-color:#f6aeb6;
 }
