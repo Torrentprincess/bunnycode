@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bunnyCode</title>
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/shared.css">
+        <link rel="stylesheet" type="text/css" href="css/shared-mobile.css">
+        <!-- Other -->
+    </head>
+    <body>
+        
+        <!-- NAV DIV -->
+        <div id="nav">
+        </div>
+        <h2>what are forms?</h2>
+        <p>HTML Forms are one of the main points of interaction between a user and a web site or application. They allow users to send data to the web site. Most of the time that data is sent to the web server, but the web page can also intercept it to use it on its own. An HTML form contains form elements, form elements are different types of input elements, like text fields, radio buttons, submit buttons, and much more</p>
+        <ol>
+            <li>text-(Default)defines a single-line text field (default width is 20 characters)</li>
+            <li>radio-defines a radio button</li>
+            <li>submit-defines a submit button</li>
+        </ol>
+        <p>To add a form to a page, we’ll use the &lt;form&gt; element. The &lt;form&gt; element identifies where on the page control elements will appear. Additionally, the &lt;form&gt; element will wrap all of the elements included within the form, much like a &lt;div&gt; element.</p>
+        <p>Text: One of the primary elements used to obtain text from users is the &lt;input&gt; element. The &lt;input&gt; element uses the type attribute to define what type of information is to be captured within the control. The most popular type attribute value is text, which denotes a single line of text input.it is best practice to give an &lt;input&gt; element a name attribute as well. The name attribute value is used as the name of the control and is submitted along with the input data to the server using &lt;input type="text" name="username"&tg;</p>
+        <p>Radio: Radio buttons are an easy way to allow users to make a quick choice from a small list of options. Radio buttons permit users to select one option only, as opposed to multiple options. To create a radio button, the &lt;input&gt;element is used with a type attribute value of radio. Each radio button element should have the same name attribute value so that all of the buttons within a group correspond to one another.the value of an input is determined by what a user types in; with radio buttons a user is making a multiple choice selection. Thus, we have to define the input value. Using the value attribute, we can set a specific value for each &lt;input&gt; element</p>
+        <ol>
+            <li>&lt;input type="radio" name="day" value="Friday"&gt; Friday</li>
+            <li>&lt;input type="radio" name="day" value="Saturday"&gt; Saturday</li>
+            <li>&lt;input type="radio" name="day" value="Sunday"&gt; Sunday</li>
+        </ol>
+        <p>Submit: As an &lt;input&gt; element, the submit button is self-contained and cannot wrap any other content. If more control over the structure and design of the input is desired—along with the ability to wrap other elements—the &lt;button&gt; element may be used. The &lt;button&gt; element performs the same way as the &lt;input&gt; element with the type attribute value of submit, it includes opening and closing tags, which may wrap other elements. By default, the &lt;button&gt; element acts as if it has a type attribute value of submit, so the type attribute and value may be omitted from the &lt;button&gt; element if you wish.  using the value attribute to control the text within the submit button, the text that appears between the opening and closing tags of the &lt;button&gt; element will appear.</p>
+        &lt;button name="submit"&gt;<br>
+        Send<br>
+        &lt;/button&gt;
+
+
+        </body>
+</html>
+<!-- If this page is in CONTENT FOLDER, use this: -->
+<script src="../../js/createNav.js"></script>
+
+<!-- If this page is in ROOT FOLDER, use this:
+<script src="js/createNav.js"
+-->
