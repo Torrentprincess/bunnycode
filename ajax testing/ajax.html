@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Code</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+        <link href="ajax.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="box">
+            <div id="left">
+                <textarea id="main-input"></textarea>
+                <br>
+                <button onclick="updateCode()">Run</button>
+            </div>
+        </div>
+        <div class="box">
+            <div id="right">
+            </div>    
+        </div>
+    </body>
+    <script>
+        x = document.getElementById("main-input");
+        right = document.getElementById("right");
+        
+        function updateCode() {
+            right.innerHTML = x.value;
+        }
+    </script>
+</html>

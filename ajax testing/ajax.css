@@ -1,0 +1,39 @@
+body {
+    height:100vh;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.box {
+    position:relative;
+    display:inline-block;
+    height:100px;
+    width:400px;
+    border:1px solid black;
+}
+
+#left, #right {
+    position:absolute;
+}
+
+#left {
+    height:inherit;
+    width:inherit;
+}
+
+#left textarea {
+    height:95%;
+    width:95%;
+    padding:0;
+    margin:0;
+}
+
+#right {
+    width:95%;
+    height:80%;
+    border:1px solid skyblue;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
