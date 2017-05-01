@@ -36,8 +36,9 @@
                         <a>CSS</a>
                         <ul class="dropdown">
                             <a href="/content/6.php"><li>The CSS Box Model</li></a>
-                            <a href="/content/7.php"><li>Images</li></a>
-                            <a href="/content/8.php"><li>Tables</li></a>
+                            <a href="/content/7.php"><li>Position</li></a>
+                            <a href="/content/8.php"><li>Images</li></a>
+                            <a href="/content/9.php"><li>Tables</li></a>
                         </ul>
                     </li>
                 </ul> <!-- end first ul -->
@@ -47,7 +48,7 @@
             <?php
             print $content;
             ?>
-            <div id="button-container">
+            <div class="button-container">
                 <a href="<?php print $prevlink; ?>" id="prevbutton" class="button">Previous</a>
                 <a href="<?php print $nextlink; ?>" id="nextbutton" class="button">Next</a>
             </div>
@@ -60,13 +61,13 @@
 <script>
 //PREVIOUS BUTTON:
     prevButton = document.getElementsByClassName("button")[0];
-    if (prevButton.href == "http://localhost/content/0.php") {
+    if (prevButton.href == "https://bunnycode-ellieya.c9users.io/content/0.php") {
     prevButton.style.display = "none";
     }
 
 //NEXT BUTTON
     nextButton = document.getElementsByClassName("button")[1];
-    if (nextButton.href == "http://localhost/content/10.php") {
+    if (nextButton.href == "https://bunnycode-ellieya.c9users.io/content/10.php") {
     nextButton.style.display = "none";
     }
 </script>
