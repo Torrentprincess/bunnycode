@@ -1,4 +1,4 @@
-<?php $w =1?><?php
+<?php $w =7?><?php
 //Cut this off when you're done
 //$w = 4;
 $nextfilenum = $w + 1;

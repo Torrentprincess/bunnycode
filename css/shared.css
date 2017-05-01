@@ -77,6 +77,18 @@ mark{
     color: red;
 }
 
+#button-container {
+    margin-top:50px;
+}
+
+#prevbutton {
+    float:left;
+}
+
+#nextbutton {
+    float:right;
+}
+
 .button {
     background-color: #763d32;
     border: none;
@@ -89,7 +101,7 @@ mark{
     margin: 4px 2px;
     cursor: pointer;
     margin-top:25px;
-    display:none; /* TEMPORARY */
+/*    display:none;  TEMPORARY */
 }
 
 .read-more-state {
