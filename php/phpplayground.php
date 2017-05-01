@@ -2,7 +2,7 @@
 <html>
     <body>
         <?php
-        echo "test";
+        echo $_SERVER['SERVER_NAME'];
         ?>
     </body>
 </html>
