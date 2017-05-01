@@ -10,5 +10,5 @@ $file = scandir($dir)[2];
 $content = file_get_contents($dir.$file);
 $prevlink = "/content/$prevfilenum.php";
 $nextlink = "/content/$nextfilenum.php";
-include($_SERVER['DOCUMENT_ROOT'] . "/php/template.php");
+include("template.php");
 ?>

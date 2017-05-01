@@ -1,4 +1,4 @@
-<?php $w =7?><?php
+<?php $w = 7?><?php
 //Cut this off when you're done
 //$w = 4;
 $nextfilenum = $w + 1;
@@ -10,5 +10,5 @@ $file = scandir($dir)[2];
 $content = file_get_contents($dir.$file);
 $prevlink = "/content/$prevfilenum.php";
 $nextlink = "/content/$nextfilenum.php";
-include($_SERVER['DOCUMENT_ROOT'] . "/php/template.php");
+include("template.php");
 ?>

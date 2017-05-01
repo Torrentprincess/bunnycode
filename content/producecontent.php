@@ -25,7 +25,7 @@
         
         for ($i = 1; $i <= 9; $i++) {
             $x = fopen("$i.php", "w");
-            fwrite($x, '<?php $w =' . $i . '?>' . file_get_contents("producecontenthelper.php"));
+            fwrite($x, '<?php $w = ' . $i . '?>' . file_get_contents("producecontenthelper.php"));
         }
         
 /*
