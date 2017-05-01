@@ -20,10 +20,10 @@
         <div id="content">
             <h1 style="font-family:unocide;">Welcome to bunnyCode! </h1>
             <center>
-            <h2 style="font-family:unocide;color:white;text-shadow:0 0 5px black;">The cutest way to learn the basics to HTML & CSS.</h2>
+            <h2 style="font-family:unocide;color:#763d32;">The cutest way to learn HTML & CSS basics.</h2>
                 <img style="padding:50px;" src="/images/bunny.png">
             <h2>Ready to start?</h2>
-            <a href="1.php"><button style="background-color:pink; border-radius:10px; padding:15px; border:5px outset hotpink;color:white;font-family:unocide;text-shadow:0 0 5px black;font-size:20px;">Click Me!</button></a>
+            <a href="/content/1.php"><button style="background-color:pink; border-radius:10px; padding:15px; border:5px outset pink;color:white;font-family:unocide;text-shadow:0 0 5px black;font-size:20px;">Click Me!</button></a>
             </center>    
         </div>
         <footer>

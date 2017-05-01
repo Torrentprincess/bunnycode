@@ -33,13 +33,13 @@
 <!--  -->
 <script>
 //PREVIOUS BUTTON:
-    prevButton = document.getElementsByClassName("button")[0];
+    prevButton = document.getElementById("prevbutton");
     if (prevButton.href == "https://bunnycode-ellieya.c9users.io/content/0.php") {
     prevButton.style.display = "none";
     }
 
 //NEXT BUTTON
-    nextButton = document.getElementsByClassName("button")[1];
+    nextButton = document.getElementById("nextbutton");
     if (nextButton.href == "https://bunnycode-ellieya.c9users.io/content/10.php") {
     nextButton.style.display = "none";
     }
